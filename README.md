@@ -1,6 +1,6 @@
-# MyApp
+# Wikipedia Viewer
 
-This is my testapp where I test stuff 
+A Wikipedia Viewer - features a dynamic search and image as background
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
 
