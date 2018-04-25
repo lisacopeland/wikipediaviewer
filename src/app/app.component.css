@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    background: url("../assets/background-3.png") no-repeat center fixed;
+}
+
+.contents {
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    margin: 30px;
+}
+
+.input-box {
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 5px;
+    align-items: center;
+    padding: 10px;
+    margin: 30px;
+}
+
+input {
+    margin-left: 16px;
+}
+
+.search-results {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+a {
+  display: flex;
+  color: white;
+  cursor: pointer;
+
+}
