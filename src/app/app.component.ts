@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MatInputModule, MatIconModule, MatListModule } from '@angular/material';
-import { Subject } from 'rxjs/Subject';
-import { Subscription } from 'rxjs/Subscription';
+import { Subject ,  Subscription } from 'rxjs';
 import { SearchService } from './search.service';
 
 /**
